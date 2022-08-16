@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      //  SERVER_CREDENTIALS = credentials('nova-credentials')
+        SERVER_CREDENTIALS = credentials('nova-credentials')
     } 
     stages {
         stage ("deploying"){
